@@ -7,5 +7,11 @@ el comando pull. Podriamos agregar tambien una referencia que definiendo
 la por ejemplo como  upstream  con el comando git remote add y 
 luego tener esta referencia a mano para futuras sicronizaciones.
 
-b)b)Si, usando el comando fetch y merge o el comando pull y 
+b)Si, usando el comando fetch y merge o el comando pull y 
 la referencia del repositorio de GAMMA.
+
+
+c) Si, mediante un git pull del repositorio de ALFA, GAMMA puede actualizar su repositorio
+
+
+d) No, no se pierden los cambios realizados en tu propio repositorio
