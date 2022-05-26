@@ -1,3 +1,11 @@
 Gonzalez Nicolas Alfa
 Argento Julian Beta
 Sosa Eduardo Gamma
+
+a) hay multiples formas, se puede usar el comando fecth y merge o 
+el comando pull. Podriamos agregar tambien una referencia que definiendo 
+la por ejemplo como  upstream  con el comando git remote add y 
+luego tener esta referencia a mano para futuras sicronizaciones.
+
+b)b)Si, usando el comando fetch y merge o el comando pull y 
+la referencia del repositorio de GAMMA.
