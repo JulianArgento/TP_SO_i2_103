@@ -15,3 +15,41 @@ c) Si, mediante un git pull del repositorio de ALFA, GAMMA puede actualizar su r
 
 
 d) No, no se pierden los cambios realizados en tu propio repositorio
+
+e)Comando utilizados por Alfa--> Nicolas Gonzalez
+
+Luego de forkear el repositorio original a nuestro repositorio lo clonamos 
+con el comando
+-git clone https://github.com/NicoGonzalez22/TP_SO_i2_103.git
+
+Luego de modificar el archivo con los datos pedidos nos dirigimos a la carpeta donde 
+se encuentra el repositorio clonado con git bash y en mi caso utilice estos comandos
+-cd Desktop 
+-cd tp 
+-cd TP_SO_i2_103
+
+Luego  inicimos un nuevo repositorio local con el comando
+-git init 
+añadimos el archivo modificado con el comando
+-git add fork.txt (el archivo que fue modificado)
+Luego hacemos un commit para preparar el archivo con el comando
+-git commit -m "mensaje(opcional)"
+Elegimos la rama que en mi caso es la main
+-git branch -M main
+Agregamos la referencia del repositorio con el comando
+-git remote add origin https://github.com/NicoGonzalez22/TP_SO_i2_103
+Y luego pusheamos los cambios con el comando
+-git push -u origin main
+
+
+Para actualizar el repositorio original al forkeado
+
+Primero creamos una referencia al repositorio original con el comando 
+- git remote add upstream https://github.com/JulianArgento/TP_SO_i2_103
+luego actualizamos los datos con el comando
+- git fetch upstream
+Luego recopilamos los cambios del repositorio original al repositorio forkeado
+con el comando
+-git rebase upstream/main
+Luego forzamos los cambios en nuestro repositorio forkeado con el comando
+-git push -f origin main
