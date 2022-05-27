@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Eduardo Sosa,192.168.100.53, 11:02
 =======
 Nicolas Gonzalez  192.168.0.7   11:07 
 >>>>>>> afa8ec6 (Actualizacion de datos)
+=======
+Nicolas Gonzalez  192.168.0.7   11:07 
+>>>>>>> afa8ec65f418c94dee233d1f5c11266bbb0b306c
